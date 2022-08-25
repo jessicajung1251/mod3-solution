@@ -1,0 +1,222 @@
+body {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #933303;
+  font-family: 'Noto Serif', serif;
+
+
+}
+
+/** HEADER **/
+
+
+#header-nav {
+  background-color: #bdd0da;
+  border-radius: 0;
+  border: 0;
+
+
+}
+
+/*MAIN CONTENT*/
+
+
+#menu-categories-title{
+  margin-bottom:10px;
+  margin-top:0;
+  font-size: 1.7em;
+}
+
+
+.container{
+  width:100%;
+}
+
+
+#chicken-content {
+  background-color: #93946B;
+
+}
+#beef-content {
+  background-color: #93946B;
+}
+#sushi-content {
+  background-color: #93946B;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Noto Serif', serif;
+  color: #cf5112;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #7D8976;
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #cf5112;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #87A9BC;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #cf5112;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+/* END HEADER */
+
+/* HOME PAGE */
+#menu-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #cf5112;
+  overflow: hidden;
+}
+/* END HOME PAGE */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #chicken-content{
+    margin: 10px 250px 100px 0;
+  }
+  #beef-content{
+    margin: 10px 250px 100px 0;
+  }
+  #sushi-content{
+    margin: 10px 250px 100px 0;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chicken-content{
+    margin: 10px 250px 100px 0;
+  }
+  #beef-content{
+    margin: 10px 250px 100px 0;
+  }
+  #sushi-content{
+    margin: 10px 250px 100px 0;
+  }
+
+}
+
+
+
+
+  /* Home Page */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #collapsable-nav {
+    background-color: #9BB3BF;
+  }
+  .navbar-brand h1 {
+    font-size: 1em;
+  }
+  #chicken-content{
+    margin: 10px 250px 100px 0;
+  }
+  #beef-content{
+    margin: 10px 250px 100px 0;
+  }
+  #sushi-content{
+    margin: 10px 250px 100px 0;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 45px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav {
+    background-color: #9BB3BF;
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 5vw;
+   
+  }
+  #chicken-content{
+    margin: 10px 250px 100px 0;
+  }
+  #beef-content{
+    margin: 10px 250px 100px 0;
+  }
+  #sushi-content{
+    margin: 10px 250px 100px 0;
+  }
+
+
+}
+
+  /* End Header */
+
+  
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top:5px;
+    font-size: 7vw;
+    margin: 5px 5px 5px 0;
+  }
+  #collapsable-nav {
+    background-color: #9BB3BF;
+    margin: 5px 5px 5px 0;
+
+  }
+}
+
+
+
+  /* End Header */
+  
